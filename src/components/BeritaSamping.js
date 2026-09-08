@@ -7,7 +7,7 @@ function BeritaSamping() {
     {
       kategori: "Rilis",
       judul:
-        "Laporan Singkat Pemeriksaan Gerakan Tanah Di Desa Kenteng, Kecamatan Sempor, Kabupaten Kebumen, Provinsi Jawa Tengah",
+        "Laporan Singkat Pemeriksaan Gerakan Tanah Di Desa Kenteng, Kecamatan Sempor, Kabupaten Kebumen",
       tanggal: "",
       penulis: "",
       isi: "",

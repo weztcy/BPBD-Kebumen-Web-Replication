@@ -8,28 +8,51 @@ import Copyright from "./Copyright";
 
 function Footer() {
   return (
-    <Container fluid>
-      <Row
-        className="justify-content-center align-items-start"
-        style={{ backgroundColor: "#1C1F2E", height: "315px" }}
+    <Container fluid className="p-0">
+      <div
+        style={{
+          backgroundColor: "#1C1F2E",
+          height: "400px",
+          width: "100%",
+        }}
       >
-        <Col>
-          <IdentitasWeb />
-        </Col>
-        <Col>
-          <KontakKami />
-        </Col>
-        <Col>
-          <StatistikPengunjung
-            hariini="175"
-            kemarin="615"
-            bulanini="5179"
-            tahunini="55981"
-            semuawaktu="386886"
-          />
-        </Col>
-      </Row>
-      <Copyright />
+        <Container
+          style={{
+            width: "60%",
+            margin: "0 auto",
+            paddingTop: "40px",
+          }}
+        >
+          <Row className="justify-content-center align-items-start">
+            <Col className="d-flex justify-content-center">
+              <IdentitasWeb />
+            </Col>
+
+            <Col className="d-flex justify-content-center">
+              <KontakKami />
+            </Col>
+
+            <Col className="d-flex justify-content-center">
+              <StatistikPengunjung
+                hariini="175"
+                kemarin="615"
+                bulanini="5179"
+                tahunini="55981"
+                semuawaktu="386886"
+              />
+            </Col>
+          </Row>
+        </Container>
+      </div>
+
+      <Container
+        style={{
+          width: "40%",
+          margin: "0 auto",
+        }}
+      >
+        <Copyright />
+      </Container>
     </Container>
   );
 }

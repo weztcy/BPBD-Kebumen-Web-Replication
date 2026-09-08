@@ -1,12 +1,17 @@
-.LandingPage{
-    width: 1580px;
-    margin: 0 auto;
-    background-color: #F4F6FA
+.LandingPage {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #F4F6FA;
+  overflow-x: hidden;
 }
-.NavBar{
-    height: 5vh;
-    margin-top: 0px;
+
+.NavBar {
+  height: 5vh;
+  margin-top: 0;
 }
-.Content{
-    margin-bottom: 100px;
+
+.Content {
+  width: 83%;
+  margin: 0 auto 100px auto;
 }

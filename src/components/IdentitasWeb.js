@@ -9,7 +9,7 @@ function IdentitasWeb() {
           <Col className="text-center text-white" style={{ marginTop: "45px" }}>
             <img
               src={LogoKebumen}
-              style={{ width: "20%", marginBottom: "15px" }}
+              style={{ width: "39%", marginBottom: "15px" }}
             />
             <p style={{ marginBottom: "0px" }}>WEBSITE RESMI</p>
             <p style={{ marginBottom: "0px" }}>
