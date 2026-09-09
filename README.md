@@ -44,7 +44,6 @@ The main technologies used in this project are:
 * ReactJS
 * JavaScript
 * Bootstrap
-* HTML
 
 ## 🎯 Project Objectives
 
