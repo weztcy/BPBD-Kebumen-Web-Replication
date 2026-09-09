@@ -6,12 +6,16 @@ function StatistikPengunjung(props) {
       <Container>
         <Row className="justify-content-center align-items-start">
           <Col
-            className="text-white"
+            className="text-white text-center"
             style={{
               margin: "35px 0px 0px 0px",
+              width: "300px",
+              flex: "0 0 300px",
             }}
           >
-            <h3>Statistik Pengunjung</h3>
+            <h3 style={{ whiteSpace: "nowrap" }}>
+              Pengunjung
+            </h3>
 
             <h3 style={{ margin: "-20px 0px 30px 0px" }}>
               ____
@@ -19,8 +23,9 @@ function StatistikPengunjung(props) {
 
             <table
               style={{
-                width: "100%",
+                width: "300px",
                 borderCollapse: "collapse",
+                tableLayout: "fixed",
               }}
             >
               <tbody>
@@ -28,6 +33,7 @@ function StatistikPengunjung(props) {
                   <th
                     style={{
                       textAlign: "left",
+                      width: "70%",
                       fontWeight: "normal",
                       paddingBottom: "10px",
                       whiteSpace: "nowrap",
@@ -38,6 +44,7 @@ function StatistikPengunjung(props) {
                   <td
                     style={{
                       textAlign: "right",
+                      width: "30%",
                       fontWeight: "normal",
                       paddingBottom: "10px",
                     }}
@@ -50,6 +57,7 @@ function StatistikPengunjung(props) {
                   <th
                     style={{
                       textAlign: "left",
+                      width: "70%",
                       fontWeight: "normal",
                       paddingBottom: "10px",
                       whiteSpace: "nowrap",
@@ -60,6 +68,7 @@ function StatistikPengunjung(props) {
                   <td
                     style={{
                       textAlign: "right",
+                      width: "30%",
                       fontWeight: "normal",
                       paddingBottom: "10px",
                     }}
@@ -72,6 +81,7 @@ function StatistikPengunjung(props) {
                   <th
                     style={{
                       textAlign: "left",
+                      width: "70%",
                       fontWeight: "normal",
                       paddingBottom: "10px",
                       whiteSpace: "nowrap",
@@ -82,6 +92,7 @@ function StatistikPengunjung(props) {
                   <td
                     style={{
                       textAlign: "right",
+                      width: "30%",
                       fontWeight: "normal",
                       paddingBottom: "10px",
                     }}
@@ -94,6 +105,7 @@ function StatistikPengunjung(props) {
                   <th
                     style={{
                       textAlign: "left",
+                      width: "70%",
                       fontWeight: "normal",
                       paddingBottom: "10px",
                       whiteSpace: "nowrap",
@@ -104,6 +116,7 @@ function StatistikPengunjung(props) {
                   <td
                     style={{
                       textAlign: "right",
+                      width: "30%",
                       fontWeight: "normal",
                       paddingBottom: "10px",
                     }}
@@ -116,6 +129,7 @@ function StatistikPengunjung(props) {
                   <th
                     style={{
                       textAlign: "left",
+                      width: "70%",
                       fontWeight: "normal",
                       paddingBottom: "10px",
                       whiteSpace: "nowrap",
@@ -126,6 +140,7 @@ function StatistikPengunjung(props) {
                   <td
                     style={{
                       textAlign: "right",
+                      width: "30%",
                       fontWeight: "normal",
                       paddingBottom: "10px",
                     }}

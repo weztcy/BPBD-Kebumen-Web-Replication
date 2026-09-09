@@ -12,7 +12,7 @@ function Footer() {
       <div
         style={{
           backgroundColor: "#1C1F2E",
-          height: "400px",
+          height: "350px",
           width: "100%",
         }}
       >
@@ -20,7 +20,7 @@ function Footer() {
           style={{
             width: "60%",
             margin: "0 auto",
-            paddingTop: "40px",
+            paddingTop: "15px",
           }}
         >
           <Row className="justify-content-center align-items-start">

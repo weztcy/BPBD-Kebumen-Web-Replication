@@ -8,36 +8,17 @@ function Copyright() {
         style={{
           width: "100%",
           margin: "0 auto",
+          justifyContent: "center",
         }}
       >
         <Navbar.Brand
-          href="#home"
           style={{
             fontSize: "14px",
             margin: 0,
           }}
         >
-          © 2024. Yohanes Dimas Pratama - A11.2021.13254
+          © 2024 - Yohanes Dimas Pratama - A11.2021.13254
         </Navbar.Brand>
-
-        <Navbar.Toggle />
-
-        <Navbar.Collapse className="justify-content-end">
-          <Navbar.Text
-            style={{
-              fontSize: "14px",
-            }}
-          >
-            <a
-              href="https://dinus.ac.id/en/"
-              style={{
-                fontSize: "14px",
-              }}
-            >
-              Universitas Dian Nuswantoro
-            </a>
-          </Navbar.Text>
-        </Navbar.Collapse>
       </Container>
     </Navbar>
   );

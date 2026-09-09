@@ -10,10 +10,10 @@ function KontakKami() {
       <Container>
         <Row className="justify-content-center align-items-start">
           <Col
-            className="text-white"
+            className="text-white text-center"
             style={{
               marginTop: "35px",
-              paddingLeft: "10px",
+              paddingLeft: "0px",
             }}
           >
             <h3>Kontak Kami</h3>
@@ -72,7 +72,7 @@ function KontakKami() {
                   whiteSpace: "nowrap",
                 }}
               >
-                0287-381240 | 08112646112
+                028-738-1240 | 081-126-46112
               </p>
             </div>
 
@@ -99,7 +99,7 @@ function KontakKami() {
                   whiteSpace: "nowrap",
                 }}
               >
-                0287-3870807
+                028-738-70807
               </p>
             </div>
 

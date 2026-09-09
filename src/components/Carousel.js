@@ -1,6 +1,6 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import image1 from "../assets/images/bpbd_kebumenkab_go_id_220623-1.jpeg";
+import image1 from "../assets/images/bpbd_kebumenkab_go_id_220623-1.jpg";
 import image2 from "../assets/images/bpbd_kebumenkab_go_id_220623-2.jpeg";
 import image3 from "../assets/images/bpbd_kebumenkab_go_id_220623-3.jpeg";
 
